@@ -62,7 +62,7 @@
 *.rtf           binary
 
 # Documents/Office/Spreadsheets
-*.csv           text
+*.csv           text eol=crlf
 *.tab           text
 *.tsv           text
 
