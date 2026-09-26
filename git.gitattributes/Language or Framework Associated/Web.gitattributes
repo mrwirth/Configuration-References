@@ -1,0 +1,26 @@
+################
+# SECTION: WEB #
+################
+
+### SUBSECTION: BASIC
+# HTML
+*.htm           text diff=html
+*.html          text diff=html
+*.xhtml         text diff=html
+
+# CSS
+*.css           text diff=css
+
+# JavaScript / ECMAScript
+*.js            text
+
+# JSON
+*.json          text
+
+### SUBSECTION: TYPESCRIPT
+*.ts            text
+*.tsx           text
+tsconfig.json   text
+
+### SUBSECTION: PRETTIER
+.prettierrc     text

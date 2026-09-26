@@ -1,0 +1,22 @@
+#################
+# SECTION: .NET #
+#################
+
+### SUBSECTION: SOLUTIONS & SPECIAL PROJECTS
+*.sln           text eol=crlf
+*.slnx          text eol=crlf
+*.sqlproj       text eol=crlf
+
+### SUBSECTION: C#
+*.cs            text diff=csharp
+*.csx           text diff=csharp
+*.csproj        text eol=crlf
+
+### SUBSECTION: F#
+*.fs            text diff=fsharp
+*.fsx           text diff=fsharp
+*.fsproj        text eol=crlf
+
+### SUBSECTION: VISUALBASIC.NET
+*.vb            text eol=crlf
+*.vbproj        text eol=crlf

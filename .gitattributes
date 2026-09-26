@@ -4,15 +4,28 @@
 # When no later patterns match, let git decide how to treat the file.
 *               text=auto
 
-##############################
-# SECTION: REPOSITORY CUSTOM #
-##############################
-
-*.gitattributes     text eol=lf
-
 ###################
 # SECTION: COMMON #
 ###################
+
+# Special Repository Files
+.gitattributes  text
+.gitconfig      text
+.gitignore      text
+AUTHORS         text
+CHANGELOG       text
+CHANGES         text
+CONTRIBUTING    text
+COPYING         text
+copyright       text
+COPYRIGHT       text
+INSTALL         text
+license         text
+LICENSE         text
+NEWS            text
+readme          text
+README          text
+TODO            text
 
 # General Plaintext (with or without markup)
 *.md            text diff=markdown
@@ -105,3 +118,10 @@
 # Media/Videos
 *.avi           binary
 *.m4v           binary
+
+##############################
+# SECTION: REPOSITORY CUSTOM #
+##############################
+
+*.gitattributes     text eol=lf linguist-language=gitattributes linguist-detectable=true
+*.gitignore         text eol=lf linguist-language=gitignore linguist-detectable=true 

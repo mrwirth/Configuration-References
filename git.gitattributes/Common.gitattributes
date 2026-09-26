@@ -2,6 +2,25 @@
 # SECTION: COMMON #
 ###################
 
+# Special Repository Files
+.gitattributes  text
+.gitconfig      text
+.gitignore      text
+AUTHORS         text
+CHANGELOG       text
+CHANGES         text
+CONTRIBUTING    text
+COPYING         text
+copyright       text
+COPYRIGHT       text
+INSTALL         text
+license         text
+LICENSE         text
+NEWS            text
+readme          text
+README          text
+TODO            text
+
 # General Plaintext (with or without markup)
 *.md            text diff=markdown
 *.txt           text
