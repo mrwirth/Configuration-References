@@ -1,0 +1,95 @@
+###################
+# SECTION: COMMON #
+###################
+
+# General Plaintext (with or without markup)
+*.md            text diff=markdown
+*.txt           text
+
+# Structured plaintext data
+*.bibtex        text diff=bibtex
+*.json          text
+*.xml           text
+*.yaml          text
+
+# Archives
+*.7z            binary
+*.bz            binary
+*.bz2           binary
+*.bzip2         binary
+*.gz            binary
+*.lz            binary
+*.lzma          binary
+*.rar           binary
+*.tar           binary
+*.tar.bz        binary
+*.tar.bz2       binary
+*.tar.bzip2     binary
+*.tar.gz        binary
+*.tar.lz        binary
+*.tar.lzma      binary
+*.tar.xz        binary
+*.taz           binary
+*.tbz           binary
+*.tbz2          binary
+*.tgz           binary
+*.tlz           binary
+*.txz           binary
+*.xz            binary
+*.Z             binary
+*.zip           binary
+*.zst           binary
+
+# Dev/Queries
+*.sql           text
+
+# Dev/Scripts
+*.bash          text eol=lf diff=bash
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
+*.ps1           text eol=crlf
+*.sh            text eol=lf
+
+# Dev/Web/Standard
+*.css           text diff=css
+*.html          text diff=html
+*.js            text
+*.xhtml         text diff=html
+
+# Documents/Office/Documents
+*.doc           binary
+*.docx          binary
+*.rtf           binary
+
+# Documents/Office/Spreadsheets
+*.csv           text
+*.tab           text
+*.tsv           text
+
+# Documents/Published
+*.epub          binary
+*.mobi          binary
+*.pdf           binary
+
+# Media/[Multiple]
+*.mp4           binary
+
+# Media/Audio
+*.m4a           binary
+*.mp3           binary
+
+# Media/Graphics
+*.eps           binary
+*.gif           binary
+*.ico           binary
+*.jpeg          binary
+*.jpg           binary
+*.png           binary
+# SVG may be treated as text or binary.
+*.svg           text
+*.tif           binary
+*.tiff          binary
+
+# Media/Videos
+*.avi           binary
+*.m4v           binary

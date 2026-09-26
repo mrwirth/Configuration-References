@@ -1,0 +1,5 @@
+####################
+# SECTION: DEFAULT #
+####################
+# When no later patterns match, let git decide how to treat the file.
+*              text=auto
