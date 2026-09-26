@@ -20,3 +20,7 @@
 ### SUBSECTION: VISUALBASIC.NET
 *.vb            text eol=crlf
 *.vbproj        text eol=crlf
+
+### SUBSECTION: ASP.NET
+*.cshtml        text
+*.razor         text
